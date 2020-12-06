@@ -1,1 +1,35 @@
-theme: jekyll-theme-minimal
+title: Luis Alberto Navarro (Luigi)
+description: > # this means to ignore newlines until "baseurl:"
+  Write an awesome description for your new site here. You can edit this
+  line in _config.yml. It will appear in your document head meta (for
+  Google search results) and in your feed.xml site description.
+permalink: ':title/'
+baseurl: "" # the subpath of your site, e.g. /blog
+url: https://luisnavarro.eu
+site-twitter: fundyc
+
+# Author Settings
+author: Luis Alberto Navarro (Luigi)
+author-img: yo.png
+about-author: >
+  Tech Lead y hombre orquesta.
+  <p>Me considero un amante del código, de la cultura devops y de las metodologías lean y agile. Disfruto creando software que sea customer centric, útil, seguro, estable, adaptable y del que pueda sentirme orgulloso.
+  <p>He trabajado en banca, fintech, i+D, telecomunicaciones y sector público y he pasado por todas la fases del desarrollo del software.
+social-twitter: fundyc
+social-github: fundyc
+social-linkedin: luisalnavarro
+
+# Tracker
+analytics: # Google Analytics
+
+# Build Settings
+markdown: kramdown
+plugins:
+  - jekyll-sitemap
+  - jekyll-paginate
+  - jemoji
+
+paginate: 8
+paginate_path: "/page/:num"
+
+exclude: ["node_modules", "gulpfile.js", "package.json", "yarn.lock"]
