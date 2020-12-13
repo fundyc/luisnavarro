@@ -2,6 +2,7 @@ title: Luis Alberto Navarro (Luigi)'s blog
 description: Luigi's blog. The tech site where I talk about my personal projects.
 permalink: ':title/'
 baseurl: "" # the subpath of your site, e.g. /blog
+image_url: "/assets/img"
 url: https://luisnavarro.eu
 site-twitter: fundyc
 

@@ -17,15 +17,15 @@ My first idea was using node with express (I had used in the past with well resu
 
 First thing I did was to open Deno documentation (https://deno.land/manual/introduction) and install deno. It was a nice surprise that npm is not used (wheeee!) so the installation was super fast and I was coding in VSC in minutes after installing Deno plugin.
 
-![Deno plugin]({{site.baseurl}}/assets/img/deno_plugin.png)
+![Deno plugin]({{site.image_url}}/20200730/deno_plugin.png)
 
 Minutes later I discover that when I change a file the server doesn’t restart immediately so after a little of research I discover denon (https://deno.land/x/denon). Perfect. Coding is faster now.
 
-![denon]({{site.baseurl}}/assets/img/denon.png)
+![denon]({{site.image_url}}/20200730/denon.png)
 
 Another thing that I want to do while I’m programming is debugging. I was be able to do it in VSC after configuring launch.json in .vscode with something like this:
 
-![Debugging deno with VSC]({{site.baseurl}}/assets/img/debugging_deno.png)
+![Debugging deno with VSC]({{site.image_url}}/20200730/debugging_deno.png)
 
 One of the theoretically good things about Deno is security since you have to give access to read or write files, access to network, … That’s ok but when you are coding to make it more simple you run it with -A to give all permissions as they are very common in any project. (Yeah, when you are going to deploy to a different environment it’s a good idea to only give the permissions that you are using).
 
@@ -35,15 +35,15 @@ Another issue that I’ve found with the test suite, maybe for the server librar
 
 A good tip for testing is installing a rest client plugin in VSC to have a bunch of requests ready to launch like REST Client from Huachao Mao.
 
-![REST Client plugin]({{site.baseurl}}/assets/img/rest_client.png)
+![REST Client plugin]({{site.image_url}}/20200730/rest_client.png)
 
 Logging is ok but could be better if the logging configuration was in a config file or something like that (I’m very used to log4j). For example if I want to enable debug logs I run the server with a “debug” argument and change the default handler and logger.
 
-![debug logs configuration]({{site.baseurl}}/assets/img/debug_logs.png)
+![debug logs configuration]({{site.image_url}}/20200730/debug_logs.png)
 
 Benchmarking is something that I love. Using it is really easy and efficient. You can take metrics of the important things with only some lines of code and then do load tests super fast without the need of using other tools.
 
-![benchmarking with deno]({{site.baseurl}}/assets/img/benchmarking.png)
+![benchmarking with deno]({{site.image_url}}/20200730/benchmarking.png)
 
 Monitoring and alerting are missed and there is not support for Opentracing, Prometheus or Grafana. 
 
