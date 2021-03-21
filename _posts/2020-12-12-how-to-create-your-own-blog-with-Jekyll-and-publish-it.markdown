@@ -3,7 +3,7 @@ layout: post
 title: Cómo crear tu propio blog con Jekyll y publicarlo
 date: 2020-12-12 16:32:20 +0100
 description: Crea tu marca perosnal online con un blog hecho en Jekyll publicado en tu propio hosting # Add post description (optional)
-img: dr-jekyll.jpg # Add image post (optional)
+img: 20201212/dr-jekyll.jpg # Add image post (optional)
 fig-caption: It's alive!!! # Add figcaption (optional)
 tags: [jekyll, ruby, hosting]
 ---

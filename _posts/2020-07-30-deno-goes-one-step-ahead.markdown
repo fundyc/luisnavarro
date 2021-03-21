@@ -3,7 +3,7 @@ layout: post
 title: Deno goes one step ahead
 date: 2020-07-30 13:32:20 +0100
 description: Doing a configuration file server to enable features. # Add post description (optional)
-img: dino.jpg # Add image post (optional)
+img: 20200730/dino.jpg # Add image post (optional)
 fig-caption: Deno is ready to walk alone # Add figcaption (optional)
 tags: [javascript, deno]
 ---

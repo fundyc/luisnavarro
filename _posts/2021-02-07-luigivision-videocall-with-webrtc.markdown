@@ -3,7 +3,7 @@ layout: post
 title: LuigiVision - videollamadas con webRTC
 date: 2021-02-07 16:32:20 +0100
 description: Como hacer una aplicacion de videollamada con webRTC # Add post description (optional)
-img: luigivision.jpg # Add image post (optional)
+img: 20210207/luigivision.jpg # Add image post (optional)
 fig-caption: call me # Add figcaption (optional)
 tags: [webrtc, javascript, frontend]
 ---

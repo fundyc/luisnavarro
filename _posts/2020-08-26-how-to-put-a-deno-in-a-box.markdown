@@ -3,7 +3,7 @@ layout: post
 title: How to put a deno in a box (deploying with Docker, Heroku and Kubernetes)
 date: 2020-08-26 13:32:20 +0100
 description: Can deno fit into a container? # Add post description (optional)
-img: deno_box.jpeg # Add image post (optional)
+img: 20200826/deno_box.jpeg # Add image post (optional)
 fig-caption: deno-box says Rooooar! # Add figcaption (optional)
 tags: [javascript, deno, docker, kubernetes]
 ---
